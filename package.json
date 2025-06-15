@@ -1,11 +1,14 @@
 {
+  "name": "trabalho_final_pgats",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "trabalho-final.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "mocha": "^11.2.2"
   },
-  "name": "trabalho_final_pgats",
-  "version": "1.0.0",
-  "main": "trabalho-final.js",
-  "type": "module",
   "dependencies": {
     "ansi-regex": "^6.1.0",
     "ansi-styles": "^4.3.0",
@@ -61,8 +64,7 @@
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "signal-exit": "^4.1.0",
-    "string-width": "^5.1.2",
-    "string-width-cjs": "^4.2.3",
+    "string-width": "^4.2.3",
     "strip-ansi": "^7.1.0",
     "strip-ansi-cjs": "^6.0.1",
     "strip-json-comments": "^3.1.1",
@@ -76,10 +78,6 @@
     "yargs-parser": "^21.1.1",
     "yargs-unparser": "^2.0.0",
     "yocto-queue": "^0.1.0"
-  },
-  "scripts": {
-    "test": "mocha",
-    "type": "module"
   },
   "keywords": [],
   "author": "",
