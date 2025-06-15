@@ -1,0 +1,22 @@
+# CI Nível 01 - Disparo Manual
+name:  Disparo Manual
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -  uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Instalando Yarn
+        run: npm install -g yarn
+
+      - name: Instalando Dependências
+        run: yarn 
+
+      - name: Executando Testes
+        run: yarn test
